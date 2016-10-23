@@ -6,7 +6,7 @@ GAMEPLAY_DEPS := ../../external-deps/lib/android/$(TARGET_ARCH_ABI)
 # libgameplay-deps
 LOCAL_PATH := $(GAMEPLAY_DEPS)
 include $(CLEAR_VARS)
-LOCAL_MODULE    := libgameplay-deps 
+LOCAL_MODULE    := libgameplay-deps
 LOCAL_SRC_FILES := libgameplay-deps.a
 include $(PREBUILT_STATIC_LIBRARY)
 
@@ -89,7 +89,7 @@ LOCAL_SRC_FILES := \
     PhysicsVehicleWheel.cpp \
     Plane.cpp \
     Platform.cpp \
-    PlatformAndroid.cpp \
+    PlatformAndroidView.cpp \
     Properties.cpp \
     Quaternion.cpp \
     RadioButton.cpp \
@@ -267,4 +267,3 @@ LOCAL_STATIC_LIBRARIES := android_native_app_glue libgameplay-deps
 include $(BUILD_SHARED_LIBRARY)
 
 $(call import-module,android/native_app_glue)
-
