@@ -4,6 +4,7 @@
 *.layout
 *.depend
 *.pro.user
+*.iml
 .DS_Store*
 ehthumbs.db
 Icon?
@@ -23,6 +24,7 @@ Makefile
 Makefile.Debug
 Makefile.Release
 gameplay.xcworkspace/xcshareddata/gameplay.xccheckout
+.externalNativeBuild
 
 /gameplay/Debug
 /gameplay/DebugMem
